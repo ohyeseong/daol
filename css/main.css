@@ -1,0 +1,442 @@
+@charset "utf-8";
+
+#wrap{}
+
+/* header영역 */
+#header{
+    width: 100%;
+    height: 80px;
+    background:url('../images/mainslide1.jpg') no-repeat center top ;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    z-index: 10;
+}
+.head_opa{
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.head_inner{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+}
+.nav{float: right;}
+
+.main{}
+
+.main li{display: inline-block;}
+
+.main li a{
+    color: white;
+    display: block;
+    line-height: 79px;
+    padding: 0 15px;
+}
+
+.main li a:hover{
+    text-shadow: 0 0 5px yellow;
+}
+
+/* contents영역 */
+#contents{}
+
+/* main_visual 영역 */
+
+.main_visual{
+    height: 900px;
+    background: url("../images/mainslide1.jpg") no-repeat center top;
+}
+.main_opa{
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    color: white;
+}
+.main_opa h2{
+    padding-top: 300px;
+    font-size: 60px;
+}
+
+.main_opa p{
+    font-size: 25px;
+    padding: 50px 0 30px;
+}
+
+.main_opa a{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.main_opa a:hover{
+    background: rgba(0,0,0,.5);
+    color: white;
+}
+
+/* info 영역 */
+.info{
+    background: #252525;
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+}
+.info h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+
+}
+.info p{
+    font-size: 18px;
+}
+.arrow{
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-top: 20px solid #252525;
+    border-right: 20px solid white;  
+    border-left: 20px solid white;
+}
+
+/* 컴퍼니 영역 */
+
+/* con_inner1 영역 */
+
+.con_inner1{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 120px 0;
+
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.p_title{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.con_wrap{
+    overflow:hidden ;
+}
+
+.con_wrap p{
+    padding-top: 30px;
+    font-size: 13px;
+    line-height: 1.7;
+    text-align: justify;
+}
+.con_wrap p.last{
+    padding-bottom: 30px;
+}
+
+.con_wrap img{width: 100%;}
+
+.left{
+    width: 490px;
+    float: left;
+}
+
+.right{
+    width: 490px;
+    float: right;
+}
+
+/* 찾아오시는 길 영역 MAP */
+.con_inner2{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.con_inner2 .map{
+    width: 100%;
+    height: 400px;
+    border: 0;
+}
+
+.address{
+    padding: 50px 0 30px;
+}
+.address h3{
+    font-size: 20px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.address p{
+    line-height: 1.8;
+}
+
+.address span{
+    display: block;
+}
+.time{
+    margin-top: 30px;
+}
+
+/* 비지니스 영역 */
+.con_inner3{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 120px 0 70PX;
+}
+
+.con_wrap3{
+    overflow: hidden;
+}
+
+.con_wrap3 li{
+    width: calc(100% / 3);
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.con_wrap3 li img{
+    width: 80%;
+}
+
+.con_wrap3 li h3{
+    padding: 20px 0 30px;
+}
+
+.con_wrap3 li p{
+    text-align: justify;
+    line-height: 1.7;
+    font-size: 13px;
+    letter-spacing: -1px;
+}
+
+.activity{
+    margin-top: 50px;
+}
+
+.activity>img{
+    width: 100%;
+}
+
+.activity>h3{
+    margin: 30px 0;
+}
+
+.article{
+    padding-top: 50px;
+    overflow: hidden;
+}
+.article>ul{}
+.article>ul>li{}
+.article>ul>li>h3{
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+.article>ul>li>p{
+    line-height: 1.5;
+}
+
+.art_left{
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgb(0, 255, 0);
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.art_right{
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgb(0, 255, 0);
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.con_inner4{
+    padding: 120px 0 70px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.img_list{
+    overflow: hidden;
+}
+.img_list>li{
+    float: left;
+    width: calc(100% / 4);
+    margin-bottom: 30px;
+}
+.img_list>li>div{
+    position: relative;
+    /* 글씨가 없고 이미지만 올때 밑에 남는 5px의 공간이 
+    싫다면 부모한테 line-height를 0으로 보통은 
+    img를 블럭으로 바꿔준다 */
+}
+.img_list>li>div>a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.3s;
+}
+/* 인라인은 밑으로는 5px의 공간이 보임 */
+
+.img_list>li>div>a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img_list>li>div>a>span{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px 0;
+    line-height: 50px;
+    text-align: center;
+    font-family: "굴림" !important;
+    font-weight: bold;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s;
+}
+/* position을 줄 경우 width, height 값이 사라진다 */
+
+.img_list>li>div>a>span:hover{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.img_list>li>div>img{
+    width: 100%;
+    display: block;
+    /* width: 100%; 내부모가 준 영역을 100% 다 쓰겠다는 뜻 */
+}
+.img_list>li>h4{
+    padding-top: 40px;
+}
+.img_list>li>h5{
+    padding-bottom: 40px;
+}
+
+.con_inner5{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 120px 0 70px;
+}
+
+.form_table{
+    width: 100%;
+}
+
+.t_left{
+    width: 30;
+    text-align: center;
+    background: #01d5ff;
+    font-weight: bold;    
+}
+
+.form_table td{
+    padding: 10px;
+    border: 2px solid black;
+}
+.art_right{
+    text-align: right;
+}
+/* 
+자식이 많은 경우 >를 쓰면 안된다
+예)만약 ul태그에 자식인 li가 하나만 있을경우 ul>li 가능
+예)ul태그에 자식인 li가 여러명일경우 ul>li X 
+*/
+
+.txt_pre{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+
+.img_center{
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    padding: 20px 0;
+}
+.btn input{
+    display: inline-block;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.con_inner6{
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    background: url(/images/7-min.jpg) no-repeat center center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.con_inner6_opa{
+    margin-top: 50px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+}
+
+.con_inner6_opa h2{
+    padding: 70px 0 30px;
+}
+
+.con_inner6_opa p{
+    padding: 0 0 20px;
+}
+
+.sns{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.sns li{
+    float: left;
+    width: calc(100% / 3);
+}
+
+.sns span{
+    font-size: 12px;
+}
+
+#footer{}
+
+.foot_up{
+    background: #444;
+    color: white;
+    padding: 50px 0;
+}
+
+.foot_up_inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.foot_down{
+    background: black;
+    color: white;
+    padding: 25px 0;
+}
+
+.foot_down_inner{
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+}
